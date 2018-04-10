@@ -1,1 +1,86 @@
-.cell {border: 1px solid red; background-color: hsla(290, 100%, 50%, 0.5);}
+/* .grid-container {border: 1px solid red;}
+
+.grid-x {border: 1px solid blue;}
+
+.cell {border: 1px solid green;}
+
+li {color:blue;} */
+
+/* NAVIGATION */
+
+li {color:blue;}
+nav { background-color: hsla(240, 50%, 90%, 1);}
+nav >ul >li>a:link {color:red; background-color: hsla(240, 50%, 90%, 1);}
+nav >ul >li>a:hover {color:white; background-color: hsla(240, 100%, 50%, 1);}
+nav >ul >li>a:active {color:red; background-color: hsla(240, 100%, 10%, 1);}
+nav >ul >li>a:link {color:red; background-color: hsla(240, 50%, 90%, 1);}
+
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway');
+h1, h2, h3, h4, h5 ,h6 {font-family: 'Oswald', sans-serif;}
+p, li {font-family: 'Raleway', sans-serif;}
+
+/*LOGO*/
+#logo{width: 50px; height:50px; background-color: red; background-image: url("https://bevouliin.com/wp-content/uploads/2014/03/multimedia-camera-video-movie-film-cinema-logo-template-one.jpg");background-size: contain; text-indent: -50em; background-repeat: no-repeat;}
+
+/* HERO IMAGE TEXT */
+@media screen and (min-width: 40em) {
+#hero {position: relative;}
+#hero  h2 {color:red; position: absolute; top:30%;left: 50%; width: 800px; margin-left: -380px; background-color: hsla(250, 100%, 100%, 50%); font-size: 10em;}
+  }
+
+footer {
+  margin-top: 20%;
+  position: absolute; left: 35.90%;
+}
+
+p {
+  font-size: 1.3em;
+  text-indent: 50px;
+  line-height: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}

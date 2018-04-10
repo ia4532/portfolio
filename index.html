@@ -4,28 +4,68 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>Artist Portfolio for Ida Quan - Frontpage</title>
+    <!-- LOAD FONT AWESOME  https://fontawesome.com/get-started/web-fonts-with-css -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
+
+
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app.js">
+
+    <!-- Return to Top -->
+    <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+
+    <style>
+    h3 {
+      text-indent: 50px;
+      line-height: 50px;
+      margin-left: 25%;
+      margin-right: 25%;
+      margin-top: 50px;
+    }
+    </style>
   </head>
   <body>
-    <div class="grid-container">
-      <div class="grid-x grid-padding-x">
-        <div class="medium-4 large-6 cell">
-          <h1>Welcome to My Portfolio!</h1>
-        </div>
-          <div class="medium-4 large-6 cell">
-            <h1>Welcome to My Portfolio!</h1>
-        </div>
-          <div class="medium-4 large-6 cell">
-            <h1>Welcome to My Portfolio!</h1>
-        </div>
-      </div>
-    </div>
+  <!-- header/nav start-->
+  <header>
+   <nav>
+     <ul class="menu">
+       <li class="text-center" > <a href="index.html" id="logo">Logo</a> </li>
+       <li  class="text-center"> <a href="index.html">Home</a> </li>
+       <li  class="text-center"> <a href="about-me.html">About Me</a> </li>
+       <li  class="text-center"> <a href="portfolio.html">Portfolio</a> </li>
+     </ul>
+   </nav>
+  </header>
+  <div class="grid-x" id="hero">
+    <div class="cell">
+       <img src="http://placeimg.com/2000/617/tech" alt="books and sketches">
+       <h2 class="text-center">Multimedia</h2>
+   </div>
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-  </body>
-</html>
+ </div>
+  <!-- header/nav end-->
+  <!-- content start-->
+        <h3>Hello and welcome to my page! I am glad that you decided to take a look at my page and see what I can offer you. You can learn a bit about me in my "About Me" page and see my artworks that I had done so far in my "Portfolio" page. Thank you and enjoy looking at my artworks!</h3>
+        <h3>If you have any questions, please feel free to contact me on either one of my social media accounts down below!</h3>
+  <!-- content end-->
+  <!-- footer start-->
+
+<footer >
+  <ul class="menu">
+    <li><a href="https://steamcommunity.com/id/SushiKins"target="_blank"><i class="fab fa-steam fa-2x" style="color:black">Steam</i></a></li>
+    <li><a href="https://www.instagram.com/sushikins/"target="_blank"><i class="fab fa-instagram fa-2x" style="color:brown">Instagram</i></a></li>
+    <li><a href="https://www.facebook.com/SushiKins"target="_blank"><i class="fab fa-facebook-square fa-2x" style="color:blue">Facebook</i></a></li>
+  </ul>
+</footer>
+
+  <!-- footer end-->
+
+      <script src="js/vendor/jquery.js"></script>
+      <script src="js/vendor/what-input.js"></script>
+      <script src="js/vendor/foundation.js"></script>
+      <script src="js/app.js"></script>
+    </body>
+  </html>
