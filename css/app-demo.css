@@ -31,7 +31,7 @@ p, li {font-family: 'Raleway', sans-serif;}
   }
 
 footer {
-  margin-top: 10%;
+  margin-top: 20%;
   position: absolute; left: 35.90%;
 }
 
@@ -39,9 +39,11 @@ p {
   font-size: 1.3em;
   text-indent: 50px;
   line-height: 50px;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
+
+
 #return-to-top {
     position: fixed;
     bottom: 20px;
